@@ -1,0 +1,213 @@
+{
+
+"books": [
+    
+{"name":"It Ends With Us",
+"author": "Colleen Hoover",
+"category": "Fiction"                        
+,"price":400,
+"rating": 4 },
+ 
+{"name": "Wings of Fire",
+"author":"A. P. J. Abdul Kalam, Arun Tiwari",      
+"category":"Biography"
+,"price":800,
+"rating": 5 },
+ 
+{"name": "Spells for Forgetting",
+"author":"Adrienne Young",
+"category":"Fantasy"
+,"price":700,                                    
+"rating": 3 },
+ 
+{"name": "The Weight of Blood",
+"author":"Tiffany D. Jackson",
+"category":"Thriller"                              
+,"price":350,
+"rating": 4 },
+ 
+{"name": "House of Hunger",
+"author":"Alexis Henderson",
+"category":"Horror"                               
+,"price":600,
+"rating": 5 },
+ 
+{"name": "The Pawn and The Puppet",
+"author":" Brandi Elise Szeker",
+"category":"Horror"                              
+,"price":620,
+"rating": 4 },
+ 
+{"name": "The Chaos Machine",
+"author":"Max Fisher",
+"category":"Business",                            
+,"price":237,
+"rating": 3 },
+ 
+{"name": "Shades of rust and ruin",
+"author":"A. G. Howard",
+"category":"Yound Adult"                           
+,"price":590,
+"rating": 4 },
+ 
+{"name": "The House Party"
+"author":"Rita Cameron",
+"category":"Mystery"
+,"price":150,                                      
+"rating": 4 },
+ 
+{"name": "Soul of the Deep",
+"author":"Natasha Bowen",
+"category":"Young Adult"                          
+,"price": 320,
+"rating": 3 },
+ 
+{"name": "John Adams",
+"author":"David McCullough",
+"category":"History"
+,"price": 200,
+"rating": 4 },
+ 
+{"name": "Before we were trans",
+"author":"Kit Heyam",
+"category":"History"                              
+,"price":300,
+"rating": 4  },
+ 
+{"name": "Fenian Street",
+"author":"Anne Emery",
+"category":"Mystery"
+,"price":430,
+"rating": 3 },
+ 
+{"name": "Atomimc Habits",
+"author":"James Clear",
+"category":"Self Help"
+,"price": 150,
+"rating": 5 },
+ 
+{"name": "The monk who sold his ferrari ",
+"author":"Robin Sharma",
+"category":"Self Help"
+,"price": 240,
+"rating": 4 },
+ 
+{"name": "Zero to One",
+"author":" Peter Thiel",                       
+"category":"Business"
+,"price": 250,
+"rating": 5 },
+ 
+{"name": "The Silent Patient",
+"author":"Alex Michaelides",
+"category":"Thriller"
+,"price": 400,
+"rating": 5 },
+ 
+{"name": "Verity",
+"author":"Colleen Hoover",
+"category":"Thriller"
+,"price": 540,
+"rating": 5 },
+ 
+{"name": "Six of Crows",
+"author":"Leigh Bardugo",
+"category":"Fantasy"
+,"price": 900,
+"rating":  },
+ 
+{"name": "The Cruel Prince",
+"author":"Holly Black",
+"category":"Fantasy"
+,"price": 370,
+"rating": 5},
+ 
+{"name": "Steve Jobs",
+"author":"Walter Isaacson",
+"category":"Biography"
+,"price": 790,
+"rating": 4 },
+ 
+{"name": "The Girl on the Train",
+"author":"Paula Hawkins",                      
+"category":"Fiction"
+,"price":310,
+"rating": 2 },
+ 
+{"name": "Shreeman Yogi",
+"author":"Ranjeet Desai",
+"category":"History"
+,"price": 595,
+"rating": 5 },
+ 
+{"name": "The Wit and Wisdom By Ratan Tata",
+"author":"Ratan Tata",
+"category":"Biography"
+,"price": 262,
+"rating": 4 },
+ 
+{"name": "The Immortals of Meluha",
+"author":"Amish Tripathi",
+"category":"Fantasy"
+,"price": 390,
+"rating": 5 },
+ 
+{"name": "Sita-Warriro of Mithila",
+"author":"Amish Tripathi",
+"category":"Fiction"
+,"price": 397,
+"rating":5 },
+ 
+{"name": "Mrityunjaya",
+"author":"Shivaji Sawant",
+"category":"Historical"           
+,"price": 399,
+"rating": 5},
+ 
+{"name": "Yayati",
+"author":"Vishnu Khandekar",
+"category":"Mythology"
+,"price": 210,
+"rating": 4 },
+ 
+{"name": "Shyamchi Aai",
+"author":"Pandurang Sadashiv Sane",
+"category":"Drama"
+,"price":496,
+"rating": 5 },
+ 
+{"name": "Yugandhara",
+"author":"Shivaji Sawant",
+"category":"Fiction"
+,"price": 69,
+"rating": 1 },
+ 
+{"name": "Chhava",
+"author":"Shivaji Sawant",
+"category":"History"
+,"price": 610,
+"rating": 5},
+ 
+{"name": "Panipat",
+"author":"Vishwas Patil",
+"category":"Fiction"
+,"price": 380,
+"rating": 4 },
+ 
+{"name": "Ek Hota Karvhar",
+"author":"Veena Gavankar",       
+"category":"Biography"
+,"price": 587,
+"rating": 4 },
+ 
+{"name": "The Psychology of Money",
+"author":"Morgan Housel",
+"category":"Business"
+,"price": 460,
+"rating": 4 },
+ 
+{"name": "Star Daughter",
+"author":"Shveta Thakrar",
+"category":"Fiction"
+,"price": 820,
+"rating": 5} ] }

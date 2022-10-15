@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+.product-list {
+    padding: 20px 10px 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.product-list>ul {
+    margin: 0 -10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.product-list>ul>li {
+    width: 25%;
+    padding: 10px;
+}
+.white-box {
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.4);
+    background-color: #ffffff;
+    padding: 25px 15px;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    height: 400px;
+}
+.product-img {
+    min-height: 135px;
+}
+.product-img img {
+    max-width: 100%;
+    max-height: 130px;
+    display: block;
+    margin: 0 auto;
+}
+.product-bottom {
+    text-align: center;
+}
+.product-name {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center;
+    margin: 1px;
+    font-weight: 600;
+    min-height: 48px;
+}
+.category{
+    font-size: 1rem;
+    color: black;
+    justify-content: center;
+    text-align: left;
+}
+.price {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+}
+.blue-btn {    
+	background: #13cfdf;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: 700;
+    border: none;
+    position: absolute;
+right:    78px;
+bottom:   40px;
+    padding-bottom: 20px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    max-width: 132px;
+    margin: 10px auto 0;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.price .line-through {
+    font-size: 14px;
+    color: #999999;
+    font-weight: 400;
+    vertical-align: 1px;
+    display: inline-block;
+    text-decoration: line-through;
+    margin-left: 4px;
+}   
+    </style>
+</head>
+<body>
+    <!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box ">
+            <i class="fa fa-home"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-user"></i>
+            <a href="books.html">
+                <h2>Books</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"></i>
+            <a href="orders.html">
+                <h2>Orders</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Mobile Menu -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li ><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="books.html"><i class="fa fa-user"></i><span>Books</span></a></li>
+                <li><a href="orders.html"><i class="fa fa-folder-open">Orders</i><span></span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<!-- Book Grid -->
+
+<div class="container">
+    <div class="product-list ">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 p-2 ">
+          <div class="white-box">
+            <div class="product-img" >
+              <img src="Thesubtleart.jpeg">
+            </div>
+            <div class="product-bottom">
+              <div class="product-name">The subtle art of not giving a fuck</div>
+              <div class="category"><label>Mark Mason</label></div>
+              <div class="category">Self Help</div>
+              <div class="price">
+                <span class="rupee-icon">₹</span> 15/week
+              </div>
+              <a href="#" class="blue-btn">Rent now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 p-2">
+          <div class="white-box">
+            <div class="product-img">
+              <img src="Alchemist.jpeg">
+            </div>
+            <div class="product-bottom">
+              <div class="product-name">Alchemist</div>
+              <div class="category">Paulo cohello</div>
+              <div class="category">Fiction</div>
+              <div class="price">
+                <span class="rupee-icon">₹</span> 20/week 
+              </div>
+              <a href="#" class="blue-btn">Rent now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/StarDaughter.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Star Daughter</div>
+                <div class="category">Shweta Thackeray</div>
+                <div class="category">Fiction</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 10/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+        <div class="col-md-3 col-sm-6 p-2">
+          <div class="white-box">
+            <div class="product-img">
+              <img src="./img/books/myutunjay.jpeg">
+            </div>
+            <div class="product-bottom">
+              <div class="product-name">Mrutyunjay</div>
+              <div class="category"><label>Shivaji Sawant</label></div>
+              <div class="category">Biography</div>
+              <div class="price">
+                <span class="rupee-icon">₹</span> 15/week
+              </div> 
+              <a href="#" class="blue-btn">Rent now</a>
+            </div>
+          </div>
+         </div>
+         <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/It ens withus.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">It ends with us</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 50,000 
+                  <span class="line-through"><span class="rupee-icon">₹</span>  60,000</span>
+                </div>
+                <a href="#" class="blue-btn">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/verity.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Verity</div>
+                <div class="category">Coolleen Hoover</div>
+                <div class="category">Fiction</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 20/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/silent patient.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Silent Patient</div>
+                <div class="category">Alex Michaelids</div>
+                <div class="category">Fiction</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 25/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2 ">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/atmoic design.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Atomic Habits</div>
+                <div class="category">James Clear</div>
+                <div class="category">Self Help</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 15/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/wings of fire.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Wings of Fire</div>
+                <div class="category">A. P. J. Abdul Kalam</div>
+                <div class="category">Biography</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 38/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/spells for foreginning.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Spells for Forgetting</div>
+                <div class="category">Adrienne Young</div>
+                <div class="category">Fantasy</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 12/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/the weight of blood.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Weight of Blood</div>
+                <div class="category">Tiffany D. Jackson</div>
+                <div class="category">Thriller</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 20/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/house of hunger.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">House of Hunger</div>
+                <div class="category">Alexis Henderson</div>
+                <div class="category">Horror</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 18/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/the pawn and the puppet.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Pawn and The Puppet</div>
+                <div class="category">Brandi Elise Szeker</div>
+                <div class="category">Horror</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 20/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/the chaos machine.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Chaos Machine</div>
+                <div class="category">Max Fisher</div>
+                <div class="category">Business</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 12/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/shades of rust and ruin.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Shades of rust and ruin</div>
+                <div class="category">A. G. Howard</div>
+                <div class="category">Young Adult</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 25/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/hpuse paerty.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The House Party</div>
+                <div class="category">Rita Cameron</div>
+                <div class="category">Mystery</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 15/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/soul of.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Soul of the Deep</div>
+                <div class="category">Natasha Bowen</div>
+                <div class="category">Young Adul</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 12/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/sita.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Sita-Warriro of Mithila</div>
+                <div class="category">Amish Tripathi</div>
+                <div class="category">Fiction</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 39/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/meluha.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Immortals of Meluha</div>
+                <div class="category">Amish Tripathi</div>
+                <div class="category">Fantasy</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 28/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/chava.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Chhava</div>
+                <div class="category">Shivaji Sawant</div>
+                <div class="category">History</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 30/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/pyscho of money.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Psychology of Money</div>
+                <div class="category">Morgan Housel</div>
+                <div class="category">Business</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 17/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/six of crows.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">Six of crows</div>
+                <div class="category">Morgan Housel</div>
+                <div class="category">Fantasy</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 19/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/cruel prince.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The Cruel Prince</div>
+                <div class="category">Holly Black</div>
+                <div class="category">Fantasy</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 20/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 p-2">
+            <div class="white-box">
+              <div class="product-img">
+                <img src="./img/books/the monk who sold.jpeg">
+              </div>
+              <div class="product-bottom">
+                <div class="product-name">The monk who sold his ferrari</div>
+                <div class="category">Robin Sharma</div>
+                <div class="category">Self Help</div>
+                <div class="price">
+                  <span class="rupee-icon">₹</span> 10/week 
+                </div>
+                <a href="#" class="blue-btn">Rent now</a>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
